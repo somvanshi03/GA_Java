@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'  # You can specify your required Java version here
+        distribution: 'adoptopenjdk'
 
     - name: Build Java project
       run: |
